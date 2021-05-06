@@ -1,0 +1,31 @@
+ESTADOS DE GIT:
+    Para clonar : 
+        abro la terminal en visual studio
+        corro el siguiente comando:                 git clone <url del repositorio>
+        me paro en ese directorio:                  cd <directorio>g
+    
+   Posibles estados de GIT :  Working, Staging y Repository --> Ubicados Localmente
+
+    Pasar de Working a Staging :     
+    Para pasar todos los archivos :                 git add .   
+    Para pasar un unico archivos                    git add <filename> 
+    Para pasar archivos en seguimient:              git add -u <filename>
+    Para pasar todos los archivos en seguimiento:   git add u.
+
+    Pasar de Staging a Repository:                  git commit -m "mensaje"
+    Este me entra al editor vm directamente:        git commit  
+
+    Ver el estado de mis archivos:                  git status
+
+    Ver si el log salio correctamente:              git log
+
+    Subir archivos a GITHUB (nube)                  git push
+
+    Baja los cambios del repositorio online         git pull        Solo se clona la primera vez o cuando se cambia de equipo, despues siempre va git pull
+
+
+
+
+
+
+    
